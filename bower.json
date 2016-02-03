@@ -1,0 +1,27 @@
+{
+  "name": "image-preloader",
+  "description": "Simple, fast and lightweight html-images preloader",
+  "main": "build/imagePreloader.min.js",
+  "authors": [
+    "Sergey Melyukov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "preloader",
+    "html"
+  ],
+  "homepage": "https://github.com/smelukov/ImagePreloader",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
