@@ -1,6 +1,6 @@
 {
   "name": "image-preloader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple, fast and lightweight html-images preloader",
   "main": "src/index.js",
   "scripts": {
@@ -50,6 +50,6 @@
     "webpack-stream": "^3.1.0"
   },
   "dependencies": {
-    "promise-ext-settled": "^1.0.0"
+    "promise-ext-settled": "^1.1.0"
   }
 }

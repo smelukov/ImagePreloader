@@ -1,3 +1,18 @@
+## Classes
+
+<dl>
+<dt><a href="#ImagePreloader">ImagePreloader</a></dt>
+<dd><p>ImagePreloader</p>
+</dd>
+</dl>
+
+## Members
+
+<dl>
+<dt><a href="#allSettled">allSettled</a></dt>
+<dd></dd>
+</dl>
+
 <a name="ImagePreloader"></a>
 ## ImagePreloader
 ImagePreloader
@@ -66,3 +81,8 @@ Do simple image preloading.
 | --- | --- |
 | imageSource | <code>String</code> &#124; <code>HTMLImageElement</code> | 
 
+<a name="allSettled"></a>
+## allSettled
+**Kind**: global variable  
+**Licence**: MIT  
+**Author:** Sergey Melyukov  

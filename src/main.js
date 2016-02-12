@@ -3,7 +3,7 @@
  * @author Sergey Melyukov
  */
 
-require('promise-ext-settled')();
+var allSettled = require('promise-ext-settled');
 
 /**
  * Image preloader
@@ -100,7 +100,7 @@ ImagePreloader.prototype.preload = function(args) {
         });
     });
 
-    return Promise.allSettled(imagesToLoad, that.onProgress);
+    return allSettled(imagesToLoad, that.onProgress);
 };
 
 module.exports = ImagePreloader;

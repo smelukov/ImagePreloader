@@ -1,3 +1,6 @@
+# 1.1.1 / 2016-02-12
+    - updated settled promise extension
+
 # 1.1.0 / 2016-02-03
     - refactoring
     - added npm support
