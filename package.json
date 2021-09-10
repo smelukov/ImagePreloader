@@ -1,5 +1,5 @@
 {
-  "name": "image-preloader",
+  "name": "@lil5/image-preloader",
   "version": "2.0.0-beta",
   "description": "Simple, fast and lightweight html-images preloader",
   "type": "module",
