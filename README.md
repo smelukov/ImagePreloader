@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/smelukov/ImagePreloader.svg?branch=master)](https://travis-ci.org/smelukov/ImagePreloader)
-
 # ImagePreloader
 
 Simple, fast and lightweight html-images preloader
