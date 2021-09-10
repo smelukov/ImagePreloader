@@ -1,5 +1,5 @@
 {
-  "name": "@lil5/image-preloader",
+  "name": "image-preloader",
   "public": true,
   "version": "2.0.0-beta",
   "description": "Simple, fast and lightweight html-images preloader",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lil5/ImagePreloader.git"
+    "url": "git+https://github.com/smelukov/ImagePreloader.git"
   },
   "keywords": [
     "image",
@@ -32,7 +32,7 @@
     "Lucian Last <li@last.nl>"
   ],
   "bugs": {
-    "url": "https://github.com/lil5/ImagePreloader/issues"
+    "url": "https://github.com/smelukov/ImagePreloader/issues"
   },
   "files": [
     "src",
@@ -41,7 +41,7 @@
     "dist/image-preloader.cjs",
     "typedefs"
   ],
-  "homepage": "https://github.com/lil5/ImagePreloader#readme",
+  "homepage": "https://github.com/smelukov/ImagePreloader#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "canvas": "^2.8.0",
