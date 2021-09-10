@@ -10,7 +10,7 @@
   "main": "dist/image-preloader.cjs",
   "types": "typedefs/index.d.ts",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "build": "microbundle --name=ImagePreloader",
     "build:watch": "microbundle --name=ImagePreloader watch",
     "lint": "prettier --write .",
