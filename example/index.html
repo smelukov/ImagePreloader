@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Image Preloader</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="container" id="container">
-    <div id="loadingBlock">
-        <h1 id="loadingText">loading...</h1>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" id="progress"></div>
-        </div>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="image-preloader.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="loadingText">loading...</h1>
+    <progress id="progress" value="0"></progress>
+    <div id="results" style="display: flex">
+      <img src="https://placeimg.com/400/400/any" />
+      <img src="https://placeimg.com/300/300/arch" />
+      <img
+        src="http://www.integrity-apps.com/wp-content/uploads/2014/09/BlueSpace.jpg"
+      />
+      <img
+        src="http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef01b7c7a6f109970b-pi"
+      />
     </div>
-    <img src="--------------http://i.telegraph.co.uk/multimedia/archive/02357/eso-summary_2357457k.jpg">
-    <img src="http://dreamatico.com/data_images/space/space-5.jpg">
-    <img src="--------------http://www.integrity-apps.com/wp-content/uploads/2014/09/BlueSpace.jpg">
-    <img src="http://www.dailygalaxy.com/.a/6a00d8341bf7f753ef01b7c7a6f109970b-pi">
-</div>
-
-<script data-main="script.js" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.22/require.min.js"></script>
-</body>
+  </body>
 </html>

@@ -1,0 +1,8 @@
+{
+  "buildOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "strict": true,
+    "strictNullChecks": true
+  }
+}
